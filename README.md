@@ -1,2 +1,2 @@
 # reshape_ramen
-##Jihan McKenzie and Mina Bansal
+Jihan McKenzie and Mina Bansal
