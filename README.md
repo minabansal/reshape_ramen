@@ -21,6 +21,8 @@ To clean the Ramen csv file, we had
   b.) convert the dataframe objects to floats so we could run aggregate functions
   c.)re-set the index for our dataframe before merging
   d.)sort values ascendingly to identify countries before merging 
+  
+When cleaning the happiness csv file, we removed and renamed columns so that we were only dealing with relevant data and were able to more clearly understand what the columns meant. After cleaning the file, we renamed countries in the Ramen file to correspond to the country names in the happiness report. Then, we merged the happiness data with the average ramen ratings grouped by country to create a single dataset.
 
 ### Load
 
