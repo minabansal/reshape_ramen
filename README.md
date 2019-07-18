@@ -17,14 +17,15 @@ We extracted Ramen ratings data from Kaggle which was gathered from https://www.
 
 ### Transform
 To clean the Ramen csv file, we had
-  a.) drop the neccessary columns
-  b.) convert the dataframe objects to floats so we could run aggregate functions
-  c.)re-set the index for our dataframe before merging
-  d.)sort values ascendingly to identify countries before merging 
+  1. drop the neccessary columns 
+  2. convert the dataframe objects to floats so we could run aggregate functions
+  3. re-set the index for our dataframe before merging
+  4. sort values ascendingly to identify countries before merging 
+  5. Select only relevant data, and exclude date that was incomplete
   
-When cleaning the happiness csv file, we removed and renamed columns so that we were only dealing with relevant data and were able to more clearly understand what the columns meant. After cleaning the file, we renamed countries in the Ramen file to correspond to the country names in the happiness report. Then, we merged the happiness data with the average ramen ratings grouped by country to create a single dataset.
-
+When cleaning the happiness csv file, we removed and renamed columns so that we were only dealing with relevant data and were able to more clearly understand what the columns meant. After cleaning the file, we renamed countries in the Ramen file to correspond to the country names in the happiness report. 
 ### Load
+Then, we merged the happiness data with the average ramen ratings grouped by country to create a single dataset. This data set could be manipulated to understand the relation of ramen ratings to country happiness, along with other varying factors based of the UN report for each country.
 
 
 At the end of the week, your team will submit a Final Report that describes the following:
