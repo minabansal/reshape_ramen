@@ -16,7 +16,11 @@ Questions that can be answered with dataset:
 We extracted Ramen ratings data from Kaggle which was gathered from https://www.theramenrater.com/.  We also extracted data from the UN's World Happiness Report 2017.
 
 ### Transform
-
+To clean the Ramen csv file, we had
+  a.) drop the neccessary columns
+  b.) convert the dataframe objects to floats so we could run aggregate functions
+  c.)re-set the index for our dataframe before merging
+  d.)sort values ascendingly to identify countries before merging 
 
 ### Load
 
